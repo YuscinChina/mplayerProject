@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>1.png</file>
+        <file>beforesong.png</file>
+        <file>fenlei.png</file>
+        <file>find.png</file>
+        <file>home.png</file>
+        <file>like.png</file>
+        <file>nextsong.png</file>
+        <file>setting.png</file>
+        <file>shoucang.png</file>
+        <file>zhuye.png</file>
+        <file>close.png</file>
+        <file>max.png</file>
+        <file>min.png</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>offsound.png</file>
+        <file>sound.png</file>
+        <file>shouqi.png</file>
+        <file>lyricClose.png</file>
+        <file>song01.png</file>
+        <file>song02.png</file>
+        <file>song03.png</file>
+        <file>song04.png</file>
+        <file>song05.png</file>
+        <file>song06.png</file>
+        <file>song07.png</file>
+        <file>song08.png</file>
+        <file>song09.png</file>
+        <file>song10.png</file>
+        <file>danqu.png</file>
+        <file>suiji.png</file>
+        <file>xunhuan.png</file>
+    </qresource>
+</RCC>

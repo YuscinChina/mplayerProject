@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="timeLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>520</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMenu">
+   <property name="geometry">
+    <rect>
+     <x>731</x>
+     <y>11</y>
+     <width>52</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/fenlei.png</normaloff>:/fenlei.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMy">
+   <property name="geometry">
+    <rect>
+     <x>789</x>
+     <y>11</y>
+     <width>51</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/home.png</normaloff>:/home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMin">
+   <property name="geometry">
+    <rect>
+     <x>851</x>
+     <y>11</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/min.png</normaloff>:/min.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMax">
+   <property name="geometry">
+    <rect>
+     <x>906</x>
+     <y>11</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/max.png</normaloff>:/max.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuit">
+   <property name="geometry">
+    <rect>
+     <x>961</x>
+     <y>11</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/close.png</normaloff>:/close.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBack1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBack2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>500</y>
+     <width>1024</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPlay">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>501</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBefore">
+   <property name="geometry">
+    <rect>
+     <x>371</x>
+     <y>506</y>
+     <width>92</width>
+     <height>88</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/beforesong.png</normaloff>:/beforesong.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNext">
+   <property name="geometry">
+    <rect>
+     <x>577</x>
+     <y>506</y>
+     <width>92</width>
+     <height>88</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/nextsong.png</normaloff>:/nextsong.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonSound">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>520</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>530</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSlider::groove:horizontal {
+ 
+border: 0px solid #bbb;
+ 
+}
+ 
+QSlider::sub-page:horizontal {
+ 
+background: rgb(220,20,60);
+ 
+border-radius: 0px;
+ 
+margin-top:8px;
+ 
+margin-bottom:8px;
+ 
+}
+ 
+QSlider::add-page:horizontal {
+ 
+background: rgb(255,255, 255);
+ 
+border: 0px solid #777;
+ 
+border-radius: 2px;
+ 
+margin-top:8px;
+ 
+margin-bottom:8px;
+ 
+}
+ 
+QSlider::handle:horizontal {
+ 
+background: rgb(220,20,60);
+ 
+border: 1px solid rgb(255,153,102);
+ 
+width: 30px;
+ 
+height:20px;
+ 
+border-radius: 7px;
+ 
+margin-top:2px;
+ 
+margin-bottom:2px;
+ 
+}
+ 
+QSlider::handle:horizontal:hover {
+ 
+background: rgb(255,128,6);
+ 
+border: 1px solid rgba(102,102,102,102);
+ 
+border-radius: 7px;
+ 
+}
+ 
+QSlider::sub-page:horizontal:disabled {
+ 
+background: #bbb;
+ 
+border-color: #999;
+ 
+}
+ 
+QSlider::add-page:horizontal:disabled {
+ 
+background: #eee;
+ 
+border-color: #999;
+ 
+}
+ 
+QSlider::handle:horizontal:disabled {
+ 
+background: #eee;
+ 
+border: 1px solid #aaa;
+ 
+border-radius: 4px;
+ 
+}</string>
+   </property>
+   <property name="singleStep">
+    <number>0</number>
+   </property>
+   <property name="sliderPosition">
+    <number>99</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="invertedControls">
+    <bool>false</bool>
+   </property>
+   <property name="tickPosition">
+    <enum>QSlider::NoTicks</enum>
+   </property>
+   <property name="tickInterval">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QSlider" name="SliderJDT">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>471</y>
+     <width>1000</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSlider::groove:horizontal {
+ 
+border: 0px solid #bbb;
+ 
+}
+ 
+QSlider::sub-page:horizontal {
+ 
+background: rgb(220,20,60);
+ 
+border-radius: 0px;
+ 
+margin-top:8px;
+ 
+margin-bottom:8px;
+ 
+}
+ 
+QSlider::add-page:horizontal {
+ 
+background: rgb(255,255, 255);
+ 
+border: 0px solid #777;
+ 
+border-radius: 2px;
+ 
+margin-top:8px;
+ 
+margin-bottom:8px;
+ 
+}
+ 
+QSlider::handle:horizontal {
+ 
+background: rgb(220,20,60);
+ 
+border: 1px solid rgb(255,153,102);
+ 
+width: 30px;
+ 
+height:80px;
+ 
+border-radius: 7px;
+ 
+margin-top:2px;
+ 
+margin-bottom:2px;
+ 
+}
+ 
+QSlider::handle:horizontal:hover {
+ 
+background: rgb(255,128,6);
+ 
+border: 1px solid rgba(102,102,102,102);
+ 
+border-radius: 7px;
+ 
+}
+ 
+QSlider::sub-page:horizontal:disabled {
+ 
+background: #bbb;
+ 
+border-color: #999;
+ 
+}
+ 
+QSlider::add-page:horizontal:disabled {
+ 
+background: #eee;
+ 
+border-color: #999;
+ 
+}
+ 
+QSlider::handle:horizontal:disabled {
+ 
+background: #eee;
+ 
+border: 1px solid #aaa;
+ 
+border-radius: 4px;
+ 
+}</string>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="tickPosition">
+    <enum>QSlider::NoTicks</enum>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listPlay">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>92</y>
+     <width>391</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLRC">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>520</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/shouqi.png</normaloff>:/shouqi.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonSingle">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>380</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/danqu.png</normaloff>:/danqu.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonList">
+   <property name="geometry">
+    <rect>
+     <x>825</x>
+     <y>380</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/res.qrc">
+     <normaloff>:/xunhuan.png</normaloff>:/xunhuan.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPlayType">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>330</y>
+     <width>300</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxStyle">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>主题1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主题2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主题3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主题4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主题5</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="labelSongName">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>180</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>labelBack1</zorder>
+  <zorder>labelBack2</zorder>
+  <zorder>pushButtonMenu</zorder>
+  <zorder>pushButtonMy</zorder>
+  <zorder>pushButtonMin</zorder>
+  <zorder>pushButtonMax</zorder>
+  <zorder>pushButtonQuit</zorder>
+  <zorder>pushButtonPlay</zorder>
+  <zorder>pushButtonBefore</zorder>
+  <zorder>pushButtonNext</zorder>
+  <zorder>timeLabel</zorder>
+  <zorder>pushButtonSound</zorder>
+  <zorder>horizontalSlider</zorder>
+  <zorder>SliderJDT</zorder>
+  <zorder>listPlay</zorder>
+  <zorder>pushButtonLRC</zorder>
+  <zorder>pushButtonSingle</zorder>
+  <zorder>pushButtonList</zorder>
+  <zorder>labelPlayType</zorder>
+  <zorder>comboBoxStyle</zorder>
+  <zorder>labelSongName</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="image/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
