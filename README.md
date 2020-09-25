@@ -1,2 +1,4 @@
 # mplayerProject
 Qt基于ARM的简易音乐播放器
+使用的是mplayer播放器Linux与ARM交叉编译
+可以实现单曲循环、列表播放以及歌词单独显示功能
